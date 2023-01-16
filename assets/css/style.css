@@ -7,9 +7,8 @@ body {
     flex-direction: column;
     align-items: center;
     font-family: 'Nanum Pen Script', cursive;
-    color: white;
-    background-image: url("bg.png");
-    background-size: cover;
+    color: lightgray;
+    background-color: darkcyan;
 }
 
 h4{
@@ -27,7 +26,7 @@ h1{
 h2 {
     height: 48px;
     font-size: 36px;
-    color: white;
+    color: darkslategray;
     font-family: 'Itim', cursive;
 }
 
@@ -43,7 +42,7 @@ main {
 
 h3{
     font-size: 46px;
-    color: white;
+    color: darkgray;
     padding: 20px;
 }
 
@@ -66,6 +65,8 @@ h3{
     width: 300px;
     height: 100px;
     padding: 10px;
+    border: 1px black;
+    border-radius: 3px;
 }
 
 .emoji {
